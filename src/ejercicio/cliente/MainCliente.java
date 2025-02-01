@@ -61,7 +61,7 @@ public class MainCliente {
         while (!usuarioAceptado) {
             //Pedir mediante un mensaje emergente el nickname:
             nickname = JOptionPane.showInputDialog("Introduce tu nickname:");
-            //Si el usuario ingresado está vacío o es nulo se volvera a pedir sin haber mandado la solicitud al servidor:
+            //Si el usuario ingresado está vacío o es nulo se volverá a pedir sin haber mandado la solicitud al servidor:
             if (nickname == null || nickname.trim().isEmpty()){ continue;}
 
             try {
